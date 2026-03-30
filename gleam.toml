@@ -1,5 +1,6 @@
 name = "dunji"
 version = "1.0.0"
+target = "javascript"
 
 description = "Kakao Postcode (우편번호) wrapper for Lustre"
 licences = ["BlueOak-1.0.0"]
