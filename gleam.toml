@@ -1,0 +1,13 @@
+name = "dunji"
+version = "1.0.0"
+
+description = "Kakao Postcode (우편번호) wrapper for Lustre"
+licences = ["BlueOak-1.0.0"]
+repository = { type = "github", user = "dohye", repo = "dunji" }
+
+[dependencies]
+gleam_stdlib = ">= 0.44.0 and < 2.0.0"
+lustre = ">= 5.0.0 and < 6.0.0"
+
+[dev_dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"

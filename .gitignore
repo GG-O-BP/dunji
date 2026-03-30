@@ -1,0 +1,16 @@
+# Gleam
+*.beam
+*.ez
+/build
+erl_crash.dump
+
+# Reference docs
+/reference
+
+# Claude Code
+/.claude
+CLAUDE.md
+
+# OS
+.DS_Store
+Thumbs.db
