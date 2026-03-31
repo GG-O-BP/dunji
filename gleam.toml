@@ -1,10 +1,10 @@
 name = "dunji"
-version = "1.0.1"
+version = "1.0.2"
 target = "javascript"
 
 description = "Kakao Postcode (우편번호) wrapper for Lustre"
 licences = ["BlueOak-1.0.0"]
-repository = { type = "github", user = "dohye", repo = "dunji" }
+repository = { type = "github", user = "GG-O-BP", repo = "dunji" }
 
 [dependencies]
 gleam_stdlib = ">= 0.44.0 and < 2.0.0"
