@@ -170,7 +170,10 @@ export function do_open(options, onComplete, onClose, onSearch) {
 
 export function do_embed(selector, options, onComplete, onClose, onResize, onSearch) {
   ensureScript().then(() => {
-    const element = document.querySelector(selector);
+    // React useId()가 생성하는 ":r0:" 같은 콜론 포함 ID를 안전하게 처리
+    const element = selector.startsWith("#")
+      ? document.getElementById(selector.slice(1))
+      : document.querySelector(selector);
     if (!element) return;
 
     const opts = optionsToJs(options);

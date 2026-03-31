@@ -1,5 +1,5 @@
 name = "dunji"
-version = "1.0.0"
+version = "1.0.1"
 target = "javascript"
 
 description = "Kakao Postcode (우편번호) wrapper for Lustre"
