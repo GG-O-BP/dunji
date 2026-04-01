@@ -1,4 +1,4 @@
-# dunji
+# 던지(dunji)
 
 [![Package Version](https://img.shields.io/hexpm/v/dunji)](https://hex.pm/packages/dunji)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/dunji/)
